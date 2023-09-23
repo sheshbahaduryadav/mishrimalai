@@ -47,17 +47,17 @@ const About = () => {
           );
         })}
       </div>
-      <footer className="mt-10 p-10">
+      <footer className="mt-10 p-10 bg-" className='f'>
         <div className="flex justify-between px-20">
-          <div className="">
+          <div className="text-large font-semibold">
             <img src={logo} className="a" alt="Misri Malai" />
             <br />
             We delivered the best quality
             <br />
             of products.
           </div>
-          <div className="fot">
-            <h2 className="font-bold text-2xl">Resturent</h2>
+          <div className=" text-sl font-semibold m-1 items-center">
+            <h2 className="font-bold text-4xl mb-5 ">Restaurant</h2>
             Mishri Malai
             <br /> <br />
             xyz@mail.com

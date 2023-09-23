@@ -19,13 +19,7 @@ body {
   background-size: 100%;
   color: white;
 }
-.Home {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .logo {
   padding-left: 200px;
   padding-top: 20px;
@@ -78,6 +72,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .slides:hover {
   background-color: #fcf9ed;
@@ -86,15 +81,36 @@ body {
   width: 25%;
   height: 12cm;
   text-align: center;
+  border-top-style: none;
+    border-top-width: 0px;
+    border-right-color: #eeeeee;
+    border-right-width: 1px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-style: none;
+    border-left-width: 0px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+    padding-left: 20px;
 }
 .card-image {
-  margin: 40px;
-  margin-top: 100px;
+ margin: 10px;
 }
 .slide .img img {
   width: 100%;
   object-fit: cover;
   text-align: center;
+}
+.slides h2{
+  font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+}
+.slides h3{
+  padding-top: 20px;
+ font-size: 20px;
+ font-weight: 500;
 }
 .imagetext {
   width: 100%;
@@ -109,19 +125,24 @@ body {
 }
 .tet {
   width: 50%;
-  font-size: 25px;
-  margin-right: 100px;
+}
+.tet1{
+  font-family: "Playfair Display";
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-right: 200px;
 }
 .ppp {
-  margin-top: 40px;
   font-size: 20px;
   padding-right: 100px;
-  margin-bottom: 50px;
+  padding-right: 200px;
+  margin-bottom: 80px;
 }
 
-.mid {
-  font-size: 25px;
-  margin: 50px;
+.Text-mid {
+  font-size: 50px;
+  font-weight: 600 ;
   padding-left: 550px;
 }
 
@@ -132,39 +153,56 @@ body {
   justify-content: center;
   align-items: center;
 }
-.sls:hover {
-  background-color: #fcf9ed;
+.product:hover {
+  background: #eeeeee;
 }
-.sls {
+.product {
   width: 25%;
   height: 12cm;
   text-align: center;
+  padding: 50px;
+  border: solid 1px #eeeeee;
+}
+.product:hover {
+  background-color: #fcf9ed;
+}
+.product h2{
+  font-size: 20px;
+  font-weight: 600;
 }
 .te {
   margin: 50px;
   text-align: center;
-  font-size: 25px;
+  font-size: 50px;
+  font-weight: 600;
 }
 .te h3 {
+  font-size: 20px;
   color: orange;
 }
 .post {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 500px;
-  margin: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .post-img {
   width: 30%;
-  height: 12cm;
+  border-style: groove;
 }
 .post-img h2 {
+  width: 100%;
   margin: 10px;
+  font-size: 20px;
+  font-family: poppins,sans-serif;
+  font-weight: 500;
 }
 .post-img h3 {
   margin: 10px;
+  font-weight: 500;
+  color: orange;
 }
 .it {
   width: 100%;
@@ -179,6 +217,8 @@ body {
   margin: 100px;
 }
 .f {
+  margin-top: 50px;
+  padding: 50px;
   font-size: 20px;
   background-color: #fcf9ed;
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import img7 from "../Icon/section2-img.png"
-import img8 from "../Icon/product-img1.jpg"
+import img8 from "../Icon/product-img1-removebg-preview.png"
 import img9 from "../Icon/section4-img.png"
-import img10 from "../Icon/product-img2.jpg"
-import img11 from "../Icon/product-img3.jpg"
-import img12 from "../Icon/product-img4.jpg"
-import img13 from "../Icon/product-img5.jpg"
-import img14 from "../Icon/product-img6.jpg"
-import img15 from "../Icon/product-img7.jpg"
-import img16 from "../Icon/product-img8.jpg"
+import img10 from "../Icon/product-img2-removebg-preview.png"
+import img11 from "../Icon/product-img3-removebg-preview.png"
+import img12 from "../Icon/product-img4-removebg-preview.png"
+import img13 from "../Icon/product-img5-removebg-preview.png"
+import img14 from "../Icon/product-img6-removebg-preview.png"
+import img15 from "../Icon/product-img7-removebg-preview.png"
+import img16 from "../Icon/product-img8-removebg-preview.png"
 
 
 const Services = () => {
@@ -67,17 +67,15 @@ const Services = () => {
     <button id='btn'>Read More</button>
   </div>
   </div>
-  <div className='mid'>
+  <div className='Text-mid'>
     <h1>Discover Curesty<br/>Bread and Cake</h1>
   </div>
   <div className="sl">
       {
         data.map((val, index)=>{
-          return (
-
-        
-    <div className="sls" key={index}>
-      <img src ={val.images} class="card-image"  alt="" />
+          return (        
+    <div className="product" key={index}>
+      <img src ={val.images} alt="" />
       <h2>{val.title}</h2>
       <h3>{val.description}</h3>
     </div>

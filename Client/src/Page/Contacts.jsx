@@ -7,7 +7,7 @@ const Contacts = () => {
 <footer className="f">
       <div className="ft">
       <div className="fot">
-      <h2>Resturent</h2>
+      <h2>Restaurants</h2>
        Mishri Malai<br/> <br/>xyz@mail.com<br/><br/>Everyday 9 AM - 10 PM
       </div>
       <div className="foot">

@@ -33,7 +33,7 @@ const Shop = () => {
           return (
 
         
-    <div className="slides" key={index}>
+    <div className="slides " key={index}>
       <img src ={val.images} class="card-image"  alt="" />
       <h2>{val.title}</h2>
       <h3>{val.description}</h3>
