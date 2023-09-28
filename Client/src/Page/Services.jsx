@@ -1,5 +1,5 @@
 import React from 'react'
-import img7 from "../Icon/section2-img.png"
+
 import img8 from "../Icon/product-img1-removebg-preview.png"
 import img9 from "../Icon/section4-img.png"
 import img10 from "../Icon/product-img2-removebg-preview.png"
@@ -56,44 +56,30 @@ const Services = () => {
     
   ]
   return (
-    <div>
-    <div className="imagetext">
-  <div className="image">
-    <img src= {img7} alt="" />
+    <>
+   
+  <div className="w-full text-center text-3xl font-semibold pb-10 lg:text-5xl leading-loose">
+    <p>Discover Curesty<br/>Bread and Cake</p>
   </div>
-  <div className="tet">
-    <h1 className="tet1">Selected wheat and creative recipes make wonders</h1>
-    <p className="ppp">Vivamus pharetra sapien libero, id aliquam masisa dictum ac. Aenean id accumsan justo. Sed dapibid augue eu hendrerit. Crais sed nisi ut turpis sagittisy luctus. Etiam nulla purus pulvinar et eros ut pretium euismod nibhed libero leo ornare.</p>
-    <button id='btn'>Read More</button>
-  </div>
-  </div>
-  <div className='Text-mid'>
-    <h1>Discover Curesty<br/>Bread and Cake</h1>
-  </div>
-  <div className="sl">
+  <div className="container flex flex-wrap mx-auto ">
       {
         data.map((val, index)=>{
           return (        
-    <div className="product" key={index}>
-      <img src ={val.images} alt="" />
-      <h2>{val.title}</h2>
-      <h3>{val.description}</h3>
+    <div className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/4 pb-24 text-center hover:bg-[#fcf9ed]" 
+    key={index}>
+      <img  className="pt-20 pl-14"
+      src ={val.images} alt=""/>
+      <h2 className="pt-10 text-3xl font-semibold">
+        {val.title}</h2>
+      <h3 className="text-xl pt-10">
+        {val.description}</h3>
     </div>
       )
     })
   }
   </div>
-  <div className="it">
-  <div className="imag">
-    <img src= {img9} alt="" />
-  </div>
-  <div className="tet">
-    <h1 className="tet1">Make Crusty Bread by Soulful Bakers With Love</h1>
-    <p className="ppp">Cras ac fermentu purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt felise nonte nulla efficitur congue. Phasellus venenatis viverra nisi vitae susmauris euismod at. Etiam dignissim ultricies tellus, at molesti ipsum posuere vel. Nam fermentum sagittis tellus egetistique. Nunc consequat telus eget leo accumsan, eu luctus justo rutrum.</p>
-    <button id='btn'>Read More</button>
-  </div>
-  </div>
-  </div>
+  
+  </>
   )
 }
 

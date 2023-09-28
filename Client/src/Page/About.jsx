@@ -1,8 +1,7 @@
-import React from "react";
-import logo from "../assets/LOGO.png";
-import post1 from "../Icon/post-img1.jpg";
-import post2 from "../Icon/post-img2.jpg";
-import post3 from "../Icon/post-img3.jpg";
+import React from 'react'
+
+import Logo from "../assets/LOGO.png";
+
 import { BsLinkedin } from "react-icons/bs";
 import {
   FaFacebookSquare,
@@ -10,83 +9,58 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 
-const About = () => {
-  const data = [
-    {
-      images: post1,
-      title: "Aenean Laoreet",
-      description: "By Bakeryblocks1",
-    },
-    {
-      images: post2,
-      title: "Praesent Accum Aesan",
-      description: "By Bakeryblocks1",
-    },
-    {
-      images: post3,
-      title: "Aenean Laoreet Nibh",
-      description: "By Bakeryblocks1",
-    },
-  ];
+const AboutNew = () => {
   return (
-    <div>
-      <div className="te">
-        <h3>Customer Review</h3>
-        <h1>
-          What Is Going On In <br /> Our Blog?
-        </h1>
-      </div>
-      <div className="post">
-        {data.map((val, i) => {
-          return (
-            <div className="post-img" key={i}>
-              <img src={val.images} alt="" />
-              <h2>{val.title}</h2>
-              <h3>{val.description}</h3>
+
+<footer className="px-3 pt-4 lg:px-9  border-t-2 bg-[#fcf9ed]">
+    <div className="grid lg:ml-40 gap-10 row-gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-between py-8 items-center">
+
+        <div className="sm:col-span-1">
+        <img src={Logo} className="h-24 w-32" 
+            alt="Misri Malai" />
+            <div className="mt-6 lg:max-w-xl">
+                <p className="text-xl text-gray-800">
+                We delivered the best quality of products. 
+                <br />
+                Everyday 7 AM - 10 PM
+                    </p>
             </div>
-          );
-        })}
-      </div>
-      <footer className="mt-10 p-10 bg-" className='f'>
-        <div className="flex justify-between px-20">
-          <div className="text-large font-semibold">
-            <img src={logo} className="a" alt="Misri Malai" />
-            <br />
-            We delivered the best quality
-            <br />
-            of products.
-          </div>
-          <div className=" text-sl font-semibold m-1 items-center">
-            <h2 className="font-bold text-4xl mb-5 ">Restaurant</h2>
-            Mishri Malai
-            <br /> <br />
-            xyz@mail.com
-            <br />
-            <br />
-            Everyday 9 AM - 10 PM
-          </div>
+        </div>
 
-          <div>
-            <h2 className="font-bold text-2xl">Social Links</h2>
-            <div className="">
-              <div className="flex justify-between">
-                <FaFacebookSquare />
+        <div className="flex flex-col gap-4  text-sm">
+            <p className="text-4xl font-bold tracking-wide text-gray-900">Social Links</p>
+            <div className="flex items-center gap-1 px-2 text-4xl mb-2">
+            <FaFacebookSquare />
 
-                <FaInstagramSquare />
+<FaInstagramSquare />
 
-                <FaTwitterSquare />
+<FaTwitterSquare />
 
-                <BsLinkedin />
-              </div>
+<BsLinkedin />
+               
             </div>
-          </div>
+            
         </div>
-        <div className="">
-          <div></div>
-        </div>
-      </footer>
+
+        <div className="flex flex-col gap-4 text-sm">
+            <p className="text-4xl font-bold tracking-wide text-gray-900">Contacts</p>
+            <div className="flex items-center gap-1 px-2 text-4xl mb-2">
+            <div className="flex flex-col text-lg gap-1 ">
+                <p className="mr-1 text-gray-800">Email </p>
+                <a href="#" title="send email">Mishrimalai@gmail.com</a>
+                <p className="mr-1 text-gray-800">Number </p>
+                <a href="#" title="For Call">+91 72XXXXXXXX</a>
+            </div>               
+            </div>
+            </div>
+            
     </div>
-  );
-};
+    <h6 className='text-sm font-bold'>Product by Wing Of Wire</h6>
+    
+</footer>
 
-export default About;
+
+  )
+}
+
+export default AboutNew

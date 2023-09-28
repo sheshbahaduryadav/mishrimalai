@@ -5,12 +5,12 @@ import About from "../src/Page/About";
 import Shop from "../src/Page/Shop";
 import Services from "../src/Page/Services";
 import Contacts from "../src/Page/Contacts";
-import { Navbar } from "./Components/Navbar";
+import Navbar from "./Components/Navbar/Navbar"
 
 const App = () => {
   return (
     <>
-      <Navbar />
+       <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

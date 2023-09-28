@@ -27,16 +27,20 @@ const Shop = () => {
     },
   ]
   return (
-    <div className="slide">
+    <div className="container flex flex-wrap my-12 mx-auto  md:px-12">
       {
         data.map((val, index)=>{
           return (
 
         
-    <div className="slides " key={index}>
-      <img src ={val.images} class="card-image"  alt="" />
-      <h2>{val.title}</h2>
-      <h3>{val.description}</h3>
+    <div className="my-1  w-full md:w-1/2 lg:w-1/4 pb-24 text-center hover:bg-[#fcf9ed]" 
+    key={index}>
+      <img className="pt-20 pl-4"
+       src ={val.images}  alt="" />
+      <h2 className="pt-10 text-4xl font-semibold">
+        {val.title}</h2>
+      <h3 className="text-xl pt-10">
+        {val.description}</h3>
     </div>
       )
     })
