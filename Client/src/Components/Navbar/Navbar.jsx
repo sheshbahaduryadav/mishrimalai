@@ -5,16 +5,15 @@ import NavLinks from "./NavLinks";
 import { styled } from "styled-components";
 import Logo from "../../assets/LOGO.png";
 import { AiOutlineMenu } from "react-icons/ai";
-import { FiShoppingCart } from "react-icons/Fi";
+import { BsCart } from "react-icons/bs";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const closeMenu = () =>{
-    setOpen(false)
-  }
- 
-  
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <NavWrapper>
       <nav className="z-50 py-2 lg:h-24 bg-transparent items-center navlink uppercase shadow-lg relative w-full font-sans font-extrabold">
@@ -29,7 +28,6 @@ const Navbar = () => {
                 />
               </Link>
             </div>
-          
 
             {/* <div
               className="text-3xl md:hidden p-5"
@@ -49,17 +47,16 @@ const Navbar = () => {
           </div>
           <ul className="md:flex hidden items-center gap-3 tracking-widest">
             <li>
-              <Link 
-                to="/" 
+              <Link
+                to="/"
                 // className="py-7 px-3 inline-block text-black"
                 className="relative text-black flex-between bg-transparent p-3 before:rounded transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
-             
               >
                 Home
               </Link>
             </li>
 
-            <NavLinks />  
+            <NavLinks />
             <li>
               <Link
                 to="/shop"
@@ -77,11 +74,9 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-            </li>  
+            </li>
           </ul>
 
-          
-         
           {/* Mobile nav */}
           <ul
             className={`
@@ -90,29 +85,30 @@ const Navbar = () => {
         `}
           >
             <li>
-              <Link onClick={closeMenu} to="/" className="py-4 px-3 inline-block">
+              <Link
+                onClick={closeMenu}
+                to="/"
+                className="py-4 px-3 inline-block"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link onClick={closeMenu} to="/contacts" className="py-4 px-3 inline-block">
+              <Link
+                onClick={closeMenu}
+                to="/contacts"
+                className="py-4 px-3 inline-block"
+              >
                 Contact
               </Link>
             </li>
-            
 
             <NavLinks onClick={closeMenu} />
-            <div className="py-5">
-            
-            </div>
-          
+            <div className="py-5"></div>
           </ul>
           <div className="text-center text-3xl ">
-
-          <FiShoppingCart/>
-
+            <BsCart />
           </div>
-        
         </div>
       </nav>
     </NavWrapper>
@@ -130,4 +126,4 @@ const NavWrapper = styled.div`
     }
   }
 `;
-export default Navbar
+export default Navbar;
