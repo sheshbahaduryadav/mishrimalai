@@ -13,7 +13,7 @@ const AboutNew = () => {
   return (
 
 <footer className="px-3 pt-4 lg:px-9  border-t-2 bg-[#fcf9ed]">
-    <div className="grid lg:ml-40 gap-10 row-gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-between py-8 items-center">
+    <div className="grid lg:pl-40 gap-10 row-gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-between py-8">
 
         <div className="sm:col-span-1">
         <img src={Logo} className="h-24 w-32" 
@@ -27,21 +27,6 @@ const AboutNew = () => {
             </div>
         </div>
 
-        <div className="flex flex-col gap-4  text-sm">
-            <p className="text-4xl font-bold tracking-wide text-gray-900">Social Links</p>
-            <div className="flex items-center gap-1 px-2 text-4xl mb-2">
-            <FaFacebookSquare />
-
-<FaInstagramSquare />
-
-<FaTwitterSquare />
-
-<BsLinkedin />
-               
-            </div>
-            
-        </div>
-
         <div className="flex flex-col gap-4 text-sm">
             <p className="text-4xl font-bold tracking-wide text-gray-900">Contacts</p>
             <div className="flex items-center gap-1 px-2 text-4xl mb-2">
@@ -53,7 +38,25 @@ const AboutNew = () => {
             </div>               
             </div>
             </div>
+
+            <div className="flex flex-col gap-4  text-sm">
+            <p className="text-4xl font-bold tracking-wide text-gray-900">Social Links</p>
+            <div className="flex items-center gap-4 py-5 px-2 text-3xl mb-2">
+            <FaFacebookSquare />
+
+<FaInstagramSquare />
+
+<FaTwitterSquare />
+
+<BsLinkedin />
+               
+            </div>
             
+        </div>
+  
+    </div>
+    <div className="m-5 text-center text-lg ">
+    <a href="">Copyright</a> @ · <a href="">Privacy Policy</a> · Support
     </div>
     <h6 className='text-sm font-bold'>Product by Wing Of Wire</h6>
     

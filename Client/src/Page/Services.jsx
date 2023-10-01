@@ -67,7 +67,7 @@ const Services = () => {
           return (        
     <div className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/4 pb-24 text-center hover:bg-[#fcf9ed]" 
     key={index}>
-      <img  className="pt-20 pl-14"
+      <img  className="p-16"
       src ={val.images} alt=""/>
       <h2 className="pt-10 text-3xl font-semibold">
         {val.title}</h2>
