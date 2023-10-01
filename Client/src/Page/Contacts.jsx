@@ -26,7 +26,7 @@ const Contacts = () => {
 
       <div className="text-center text-3xl">
         <p  className="text-amber-500 mb-2 font-bold text-xl ">Customer Reviews</p>
-        <p className="text-5xl mx-10 mb-10 font-semibold leading-tight">
+        <p className="lg:text-5xl mx-10 mb-10 font-semibold leading-tight">
           What Going On In <br /> Our Blog?
         </p>
       </div>
