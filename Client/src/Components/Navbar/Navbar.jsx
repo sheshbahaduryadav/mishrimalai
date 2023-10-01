@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 import { styled } from "styled-components";
 import Logo from "../../assets/LOGO.png";
 import { AiOutlineMenu } from "react-icons/ai";
-import { FiShoppingCart } from "react-icons/Fi";
+import { BsCart3  } from "react-icons/bs";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -109,7 +109,7 @@ const Navbar = () => {
           </ul>
           <div className="opacity-0 lg:opacity-100 text-center lg:text-3xl ">
 
-          <FiShoppingCart/>
+          <BsCart3 />
 
           </div>
         
