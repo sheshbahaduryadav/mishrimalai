@@ -19,13 +19,13 @@ const Navbar = () => {
     <NavWrapper>
       <nav className="z-50 py-2 lg:h-24 bg-transparent items-center navlink uppercase shadow-lg relative w-full font-sans font-extrabold">
         <div className="flex items-center font-medium justify-between lg:px-10">
-          <div className="z-50 md:w-auto w-full flex justify-between">
+          <div className="z-50 md:w-auto pl-8 w-full flex justify-between">
             <div className="flex items-center  bg-transparent">
               <Link to="/">
                 <img
                   src={Logo}
                   alt="logo"
-                  className="md:cursor-pointer  lg:h-20 md:h-18 sm:h-11 h-11"
+                  className="md:cursor-pointer lg:h-20 md:h-18 sm:h-11 h-11"
                 />
               </Link>
             </div>

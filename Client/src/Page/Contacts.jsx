@@ -31,12 +31,12 @@ const Contacts = () => {
         </p>
       </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 items-center gap-10">
         {data.map((val, i) => {
           return (
             <div className="rounded overflow-hidden shadow-lg"  key={i}>
               <div className="relative">
-            <div className="w-full">
+            <div className="w-full p-5">
               <img src={val.images} alt="" />
               <div className="px-6 py-4">
               <h2 className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
