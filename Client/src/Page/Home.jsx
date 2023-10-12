@@ -1,18 +1,19 @@
 import React from "react";
 import Shop from "./Shop";
 import Service from "./Services";
-import About from "./Footer";
 import { HomeBanner } from "../Components/HomeBanner";
 import Contacts from "./Contacts";
+import { SweetsList } from "../Components/SweetsList";
+import { LatestCategory } from "../Components/LatestCategory";
 
 export const Home = () => {
   return (
     <div>
       <HomeBanner />
-      <Shop />
+      <LatestCategory />
       <Service />
+      <SweetsList />
       <Contacts />
-      <About />
     </div>
   );
 };

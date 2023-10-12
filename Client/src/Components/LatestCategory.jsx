@@ -3,7 +3,7 @@ import Img1 from "../Icon/category-img1.png";
 import Img2 from "../Icon/category-img2.png";
 import Img3 from "../Icon/category-img3.png";
 import Img4 from "../Icon/category-img4.png";
-export const SweetsList = () => {
+export const LatestCategory = () => {
   const data = [
     {
       images: Img1,
@@ -28,9 +28,6 @@ export const SweetsList = () => {
   ];
   return (
     <>
-      <div className="flex justify-center">
-        <h2 className="text-4xl">Heading</h2>
-      </div>
       <div className="container flex flex-wrap my-12 mx-auto  md:px-12">
         {data.map((val, index) => {
           return (
