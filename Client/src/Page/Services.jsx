@@ -55,26 +55,23 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="w-full flex justify-center text-center lg:text-5xl font-semibold pb-10 sm:text-3xl text-3xl leading-loose">
-        <p className="lg:w-96 lg:leading-none leading-[60px]">
-          Discover Curesty Bread and Cake
+      <div className="w-full text-center text-3xl font-semibold pb-10 lg:text-5xl leading-loose">
+        <p>
+          Discover Curesty
+          <br />
+          Bread and Cake
         </p>
       </div>
-      <div className="container flex flex-wrap mx-auto justify-center">
+      <div className="container flex flex-wrap mx-auto ">
         {data.map((val, index) => {
           return (
             <div
-              className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/3 pb-24 text-center hover:bg-[#fcf9ed]"
+              className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/4 pb-24 text-center hover:bg-[#fcf9ed]"
               key={index}
             >
-              <div className="flex justify-center">
-                <img className="pt-20" src={val.images} alt="" />
-              </div>
-              <div>
-                {" "}
-                <h2 className="pt-10 text-3xl font-semibold">{val.title}</h2>
-                <h3 className="text-xl pt-10">{val.description}</h3>
-              </div>
+              <img className="p-24 lg:p-20" src={val.images} alt="" />
+              <h2 className="pt-10 text-3xl font-semibold">{val.title}</h2>
+              <h3 className="text-xl pt-10">{val.description}</h3>
             </div>
           );
         })}
