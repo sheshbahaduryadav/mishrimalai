@@ -66,7 +66,7 @@ const Services = () => {
         {data.map((val, index) => {
           return (
             <div
-              className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/4 pb-24 text-center hover:bg-[#fcf9ed]"
+              className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/3 pb-24 text-center hover:bg-[#fcf9ed]"
               key={index}
             >
               <img className="p-24 lg:p-20" src={val.images} alt="" />
