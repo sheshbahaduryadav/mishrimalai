@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <NavWrapper>
-      <nav className="z-50 py-2 lg:h-24 bg-transparent items-center navlink uppercase shadow-lg relative w-full font-sans font-extrabold">
+      <nav className="z-50 py-2 sticky top-0 lg:h-24 bg-transparent items-center uppercase shadow-lg  w-full font-sans font-extrabold">
         <div className="flex items-center font-medium justify-between lg:px-10">
           <div className="z-50 md:w-auto w-full flex justify-between">
             <div className="flex items-center  bg-transparent">
@@ -114,16 +114,5 @@ const Navbar = () => {
     </NavWrapper>
   );
 };
-const NavWrapper = styled.div`
-  .navlink {
-    background: white;
-  }
-  @media screen and (max-width: 768px) {
-    .navlink {
-      background: white;
-
-      // opacity: 0.9;
-    }
-  }
-`;
+const NavWrapper = styled.div``;
 export default Navbar;
