@@ -8,29 +8,29 @@ export const SweetsList = () => {
   const data = [
     {
       images: Img1,
-      title: "Breakfast",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "North Indian",
+      description: "",
     },
     {
       images: Img2,
-      title: "Pastry",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Snacks",
+      description: "",
     },
     {
       images: Img3,
-      title: "Sandwich",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Sweets",
+      description: "",
     },
     {
       images: Img4,
-      title: "Coffee",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "South Indian",
+      description: "",
     },
   ];
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="text-4xl">Heading</h2>
+        <h2 className="text-4xl">Taste The Wonders Of Our Food Offerings And Our Sweet Creations.</h2>
       </div>
       <div className="container flex flex-wrap my-12 mx-auto  md:px-12">
         {data.map((val, index) => {

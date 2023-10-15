@@ -25,10 +25,10 @@ const Contacts = () => {
     <div className="max-w-screen-xl mx-auto  sm:p-10 md:p-16">
       <div className="text-center text-3xl">
         <p className="text-amber-500 mb-2 font-bold text-xl ">
-          Customer Reviews
+          
         </p>
         <p className="lg:text-5xl mx-10 mb-10 font-semibold leading-tight">
-          What Going On In <br /> Our Blog?
+        Dine With Your Eyes: <br /> Our Restaurant's Visual Story
         </p>
       </div>
 

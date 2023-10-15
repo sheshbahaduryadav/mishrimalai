@@ -7,23 +7,23 @@ export const LatestCategory = () => {
   const data = [
     {
       images: Img1,
-      title: "Breakfast",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "100% Authentic",
+      description: "",
     },
     {
       images: Img2,
-      title: "Pastry",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Fresh",
+      description: "",
     },
     {
       images: Img3,
-      title: "Sandwich",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Purified Water in Every Batch",
+      description: "",
     },
     {
       images: Img4,
-      title: "Coffee",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Traditional Recipies",
+      description: "",
     },
   ];
   return (

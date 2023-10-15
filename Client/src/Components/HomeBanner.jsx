@@ -9,12 +9,12 @@ export const HomeBanner = () => {
       <div className="bg-orange-900 banner-image text-white h-full w-full px-5 lg:px-40 lg:pb-36">
         <div className=" pt-14 lg:pt-28 lg:w-2/4  ">
           <h1 className=" text-[25px] lg:text-7xl pb-4 font-semibold leading-loose ">
-            We Bake With Passion
+          MISHRI MALAI - "A Symphony of Flavors."
           </h1>
           
           <p className="text-[16px] pb-[18px] lg:text-xl font-medium leading-loose">
-            Volutpat sit amet leo id efficitur mattis turpis
-            <br /> dunec bibendum est proin ligula nisl.
+          From Sweet to Savory, We've Got It All
+            <br /> Join Us for a Feast to Remember.
           </p>
           </div>
           <div className=" pb-24  pt-5">

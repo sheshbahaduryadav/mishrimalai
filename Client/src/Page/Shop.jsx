@@ -7,23 +7,130 @@ const Shop = () => {
   const data = [
     {
       images: Img1,
-      title: "Breakfast",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Kaju Barfi",
+      description: "",
     },
     {
       images: Img2,
-      title: "Pastry",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Mewa Bite",
+      description: "",
     },
     {
       images: Img3,
-      title: "Sandwich",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Kaju Anjeer Barfi",
+      description: "",
     },
     {
       images: Img4,
-      title: "Coffee",
-      description: "Volutpat sit amet efficitur mattis turpis.",
+      title: "Motichoor laddoo",
+      description: "",
+    },
+  
+    {
+      images: Img4,
+      title: "Mathura Peda",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Rasgulla",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Magdal",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Maysor Pak",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Besan Gajak",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Choco Bite",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Samosa",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Khasta",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Jalebi",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Sandwich",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Dry Chilli Paneer",
+      description: "",
+    },
+    
+    {
+      images: Img4,
+      title: "Corn Chilli Dry",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Steam Momo",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Masala Dosa",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Idli Sambhar ",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Uttapam",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Haandi Paneeer",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Kadahi Paneer",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Paneer Tikka",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Hara bhara Kabab",
+      description: "",
+    },
+    {
+      images: Img4,
+      title: "Mushroom Boti",
+      description: "",
     },
   ];
   return (

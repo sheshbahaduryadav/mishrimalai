@@ -14,17 +14,17 @@ const Services = () => {
   const data = [
     {
       images: img8,
-      title: "Crunchy Crust",
+      title: "Sweet Shop",
       description: " ",
     },
     {
       images: img10,
-      title: "Crescent Roll",
+      title: "Restaurant",
       description: "",
     },
     {
       images: img11,
-      title: "Round Eye",
+      title: "Party Lawn",
       description: "",
     },
     // {
@@ -57,9 +57,9 @@ const Services = () => {
     <>
       <div className="w-full text-center text-3xl font-semibold pb-10 lg:text-5xl leading-loose">
         <p>
-          Discover Curesty
+          Indulge, Dine And Epic Celebrations
           <br />
-          Bread and Cake
+          "All Under One Roof"
         </p>
       </div>
       <div className="container flex flex-wrap mx-auto ">
