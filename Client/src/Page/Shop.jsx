@@ -1,8 +1,32 @@
 import React from "react";
-import Img1 from "../Icon/category-img1.png";
-import Img2 from "../Icon/category-img2.png";
-import Img3 from "../Icon/category-img3.png";
-import Img4 from "../Icon/category-img4.png";
+import Img1 from "../assets/product-image/kaju barfi.jpeg";
+import Img2 from "../assets/product-image/mewa bite.jpg";
+import Img3 from "../assets/product-image/kaju anjeer barfi.jpeg";
+import Img4 from "../assets/product-image/motichoor laddoo.jpeg";
+import Img5 from "../assets/product-image/mathura peda.jpg";
+import Img6 from "../assets/product-image/rasgulla.jpg";
+import Img7 from "../assets/product-image/magdal.jpg";
+import Img8 from "../assets/product-image/Mysore pak.jpg";
+import Img9 from "../assets/product-image/besan gazk.webp";
+import Img10 from "../assets/product-image/choco bite.jpg";
+import Img11 from "../assets/product-image/samosa.jpg";
+import Img12 from "../assets/product-image/khasta.jpg";
+import Img13 from "../assets/product-image/jalebi.jpg";
+import Img14 from "../assets/product-image/sandwich.jpg";
+import Img15 from "../assets/product-image/chilli paneer.jpg";
+import Img16 from "../assets/product-image/chilli corn dry.jpg";
+import Img17 from "../assets/product-image/steam momo.jpg";
+import Img18 from "../assets/product-image/masala dosa.jpg";
+import Img19 from "../assets/product-image/idly sambhar.jpg";
+import Img20 from "../assets/product-image/uttapam.jpg";
+import Img21 from "../assets/product-image/handi paneer.jpg";
+import Img22 from "../assets/product-image/north indian.jpg";
+import Img23 from "../assets/product-image/paneer tikka.jpg";
+import Img24 from "../assets/product-image/hara bhara kabab.jpg";
+import Img25 from "../assets/product-image/mushroom boti.jpg";
+
+
+
 const Shop = () => {
   const data = [
     {
@@ -10,6 +34,7 @@ const Shop = () => {
       title: "Kaju Barfi",
       description: "",
     },
+    
     {
       images: Img2,
       title: "Mewa Bite",
@@ -27,108 +52,108 @@ const Shop = () => {
     },
   
     {
-      images: Img4,
+      images: Img5,
       title: "Mathura Peda",
       description: "",
     },
     {
-      images: Img4,
+      images: Img6,
       title: "Rasgulla",
       description: "",
     },
     {
-      images: Img4,
+      images: Img7,
       title: "Magdal",
       description: "",
     },
     {
-      images: Img4,
+      images: Img8,
       title: "Maysor Pak",
       description: "",
     },
     {
-      images: Img4,
+      images: Img9,
       title: "Besan Gajak",
       description: "",
     },
     {
-      images: Img4,
+      images: Img10,
       title: "Choco Bite",
       description: "",
     },
     {
-      images: Img4,
+      images: Img11,
       title: "Samosa",
       description: "",
     },
     {
-      images: Img4,
+      images: Img12,
       title: "Khasta",
       description: "",
     },
     {
-      images: Img4,
+      images: Img13,
       title: "Jalebi",
       description: "",
     },
     {
-      images: Img4,
+      images: Img14,
       title: "Sandwich",
       description: "",
     },
     {
-      images: Img4,
+      images: Img15,
       title: "Dry Chilli Paneer",
       description: "",
     },
     
     {
-      images: Img4,
+      images: Img16,
       title: "Corn Chilli Dry",
       description: "",
     },
     {
-      images: Img4,
+      images: Img17,
       title: "Steam Momo",
       description: "",
     },
     {
-      images: Img4,
+      images: Img18,
       title: "Masala Dosa",
       description: "",
     },
     {
-      images: Img4,
+      images: Img19,
       title: "Idli Sambhar ",
       description: "",
     },
     {
-      images: Img4,
+      images: Img20,
       title: "Uttapam",
       description: "",
     },
     {
-      images: Img4,
+      images: Img21,
       title: "Haandi Paneeer",
       description: "",
     },
     {
-      images: Img4,
+      images: Img22,
       title: "Kadahi Paneer",
       description: "",
     },
     {
-      images: Img4,
+      images: Img23,
       title: "Paneer Tikka",
       description: "",
     },
     {
-      images: Img4,
+      images: Img24,
       title: "Hara bhara Kabab",
       description: "",
     },
     {
-      images: Img4,
+      images: Img25,
       title: "Mushroom Boti",
       description: "",
     },
