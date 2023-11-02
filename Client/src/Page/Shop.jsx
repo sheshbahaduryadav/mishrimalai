@@ -19,7 +19,7 @@ import Img3 from "../assets/skjlfd/kaju anjeer barfi.jpeg";
  import Img18 from "../assets/skjlfd/masala dosa.jpg";
  import Img19 from "../assets/skjlfd/idly sambhar.jpg";
  import Img20 from "../assets/skjlfd/uttapam.jpg";
- import Img21 from "../assets/skjlfd/stock-photo-shahi-paneer-in-handi-with-wooden-background-1692310198.jpg";
+ import Img21 from "../assets/skjlfd/handi pan.jpg";
  import Img22 from "../assets/skjlfd/kalyani-akella-vgTntT8PmIM-unsplash.jpg";
  import Img23 from "../assets/skjlfd/paneer tikka.jpg";
  import Img24 from "../assets/skjlfd/hara bhara kabab.jpg";
