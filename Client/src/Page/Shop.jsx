@@ -1,29 +1,29 @@
 import React from "react";
-import Img1 from "../assets/product-image/kaju barfi.jpeg";
-import Img2 from "../assets/product-image/mewa bite.jpg";
-import Img3 from "../assets/product-image/kaju anjeer barfi.jpeg";
-import Img4 from "../assets/product-image/motichoor laddoo.jpeg";
-import Img5 from "../assets/product-image/mathura peda.jpg";
-import Img6 from "../assets/product-image/rasgulla.jpg";
-import Img7 from "../assets/product-image/magdal.jpg";
-import Img8 from "../assets/product-image/Mysore pak.jpg";
-import Img9 from "../assets/product-image/besan gazk.webp";
-import Img10 from "../assets/product-image/choco bite.jpg";
-import Img11 from "../assets/product-image/samosa.jpg";
-import Img12 from "../assets/product-image/khasta.jpg";
-import Img13 from "../assets/product-image/jalebi.jpg";
-import Img14 from "../assets/product-image/sandwich.jpg";
-import Img15 from "../assets/product-image/chilli paneer.jpg";
-import Img16 from "../assets/product-image/chilli corn dry.jpg";
-import Img17 from "../assets/product-image/steam momo.jpg";
-import Img18 from "../assets/product-image/masala dosa.jpg";
-import Img19 from "../assets/product-image/idly sambhar.jpg";
-import Img20 from "../assets/product-image/uttapam.jpg";
-import Img21 from "../assets/product-image/handi paneer.jpg";
-import Img22 from "../assets/product-image/north indian.jpg";
-import Img23 from "../assets/product-image/paneer tikka.jpg";
-import Img24 from "../assets/product-image/hara bhara kabab.jpg";
-import Img25 from "../assets/product-image/mushroom boti.jpg";
+import Img1 from "../assets/skjlfd/kaju barfi.jpeg";
+import Img2 from "../assets/skjlfd/mewa bite.jpg";
+import Img3 from "../assets/skjlfd/kaju anjeer barfi.jpeg";
+ import Img4 from "../assets/skjlfd/motichoor laddoo.jpeg";
+ import Img5 from "../assets/skjlfd/mathura peda.jpg";
+ import Img6 from "../assets/skjlfd/rasgulla.jpg";
+ import Img7 from "../assets/skjlfd/magdal.jpg";
+ import Img8 from "../assets/skjlfd/Mysore_pak.jpg";
+ import Img9 from "../assets/skjlfd/besan gazk.webp";
+ import Img10 from "../assets/skjlfd/choco bite.jpg";
+ import Img11 from "../assets/skjlfd/samosa.jpg";
+ import Img12 from "../assets/skjlfd/khasta.jpg";
+ import Img13 from "../assets/skjlfd/jalebi.jpg";
+ import Img14 from "../assets/skjlfd/sandwich.jpg";
+ import Img15 from "../assets/skjlfd/chilli paneer.jpg";
+ import Img16 from "../assets/skjlfd/chilli corn dry.jpg";
+ import Img17 from "../assets/skjlfd/steam momo.jpg";
+ import Img18 from "../assets/skjlfd/masala dosa.jpg";
+ import Img19 from "../assets/skjlfd/idly sambhar.jpg";
+ import Img20 from "../assets/skjlfd/uttapam.jpg";
+ import Img21 from "../assets/skjlfd/stock-photo-shahi-paneer-in-handi-with-wooden-background-1692310198.jpg";
+ import Img22 from "../assets/skjlfd/kalyani-akella-vgTntT8PmIM-unsplash.jpg";
+ import Img23 from "../assets/skjlfd/paneer tikka.jpg";
+ import Img24 from "../assets/skjlfd/hara bhara kabab.jpg";
+ import Img25 from "../assets/skjlfd/mushroom boti.jpg";
 
 
 
@@ -42,22 +42,22 @@ const Shop = () => {
     },
     {
       images: Img3,
-      title: "Kaju Anjeer Barfi",
-      description: "",
-    },
-    {
-      images: Img4,
-      title: "Motichoor laddoo",
-      description: "",
-    },
+       title: "Kaju Anjeer Barfi",
+       description: "",
+     },
+     {
+       images: Img4,
+       title: "Motichoor laddoo",
+       description: "",
+     },
   
-    {
-      images: Img5,
+     {
+     images: Img5,
       title: "Mathura Peda",
       description: "",
     },
     {
-      images: Img6,
+       images: Img6,
       title: "Rasgulla",
       description: "",
     },

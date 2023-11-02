@@ -1,9 +1,9 @@
 import React from "react";
 
-import img8 from "../Icon/product-img1-removebg-preview.png";
+// import img8 from "./Icon/product-img2-removebg-preview.png.";
 import img9 from "../Icon/section4-img.png";
-import img10 from "../Icon/product-img2-removebg-preview.png";
-import img11 from "../Icon/product-img3-removebg-preview.png";
+// import img10 from "../Icon/product-img2-removebg-preview.png";
+// import img11 from "../Icon/product-img3-removebg-preview.png";
 import img12 from "../Icon/product-img4-removebg-preview.png";
 import img13 from "../Icon/product-img5-removebg-preview.png";
 import img14 from "../Icon/product-img6-removebg-preview.png";
@@ -13,17 +13,17 @@ import img16 from "../Icon/product-img8-removebg-preview.png";
 const Services = () => {
   const data = [
     {
-      images: img8,
+      // images: img8,
       title: "Sweet Shop",
       description: " ",
     },
     {
-      images: img10,
+      // images: img10,
       title: "Restaurant",
       description: "",
     },
     {
-      images: img11,
+      // images: img11,
       title: "Party Lawn",
       description: "",
     },
