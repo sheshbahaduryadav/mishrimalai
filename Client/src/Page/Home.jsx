@@ -10,6 +10,7 @@ export const Home = () => {
   return (
     <div>
       <HomeBanner />
+      {/* end home banner */}
       <LatestCategory />
       <Service />
       <SweetsList />
