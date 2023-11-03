@@ -1,24 +1,24 @@
 import React from "react";
-import post1 from "../Icon/post-img1.jpg";
-import post2 from "../Icon/post-img2.jpg";
-import post3 from "../Icon/post-img3.jpg";
+import post1 from "../assets/skjlfd/mishri5.jpeg";
+import post2 from "../assets/skjlfd/mishri4.jpeg";
+import post3 from "../assets/skjlfd/mishri6.jpeg";
 
 const Contacts = () => {
   const data = [
     {
       images: post1,
-      title: "Aenean Laoreet",
-      description: "By Bakeryblocks1",
+      title: "Discover The Irresistible Flavors Of Lucknow's Premier Sweet Haven.",
+      description: "",
     },
     {
       images: post2,
-      title: "Praesent Accum Aesan",
-      description: "By Bakeryblocks1",
+      title: "From Flavors To Ambiance, Explore Our Premier Restaurant's offerings.",
+      description: "",
     },
     {
       images: post3,
-      title: "Aenean Laoreet Nibh",
-      description: "By Bakeryblocks1",
+      title: "Create Timeless Memories At Our Stunning Atmospheric Party Lawn.",
+      description: "",
     },
   ];
   return (
@@ -50,7 +50,7 @@ const Contacts = () => {
                       href="#"
                       className="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row items-center"
                     >
-                      <span className="ml-1">6 mins ago</span>
+                      <span className="ml-1"></span>
                     </span>
                   </div>
                 </div>
