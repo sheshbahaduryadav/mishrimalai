@@ -1,5 +1,5 @@
 import React from "react";
-import  bgImg  from "../assets/1.jpg";
+import  bgImg  from "../assets/skjlfd/mishri banner 2.jpg";
 import { styled } from "styled-components";
 
 
