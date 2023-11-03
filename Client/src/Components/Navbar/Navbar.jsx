@@ -16,15 +16,15 @@ const Navbar = () => {
 
   return (
     <NavWrapper>
-      <nav className="z-50 py-2 sticky top-0 lg:h-24 bg-transparent items-center uppercase shadow-lg  w-full font-sans font-extrabold">
+      <nav className="z-50 py-2 sticky top-0 bg-transparent items-center uppercase shadow-lg  w-full font-sans font-extrabold">
         <div className="flex items-center font-medium justify-between lg:px-10">
           <div className="z-50 md:w-auto pl-8 w-full flex justify-between">
-            <div className="flex items-center  bg-transparent">
+            <div className="flex items-center bg-transparent">
               <Link to="/">
                 <img
                   src={Logo}
                   alt="logo"
-                  className="md:cursor-pointer lg:h-20 md:h-18 sm:h-11 h-11"
+                  className="md:cursor-pointer lg:h-14 md:h-14 sm:h-11 h-11"
                 />
               </Link>
             </div>

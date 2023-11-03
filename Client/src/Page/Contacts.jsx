@@ -7,12 +7,14 @@ const Contacts = () => {
   const data = [
     {
       images: post1,
-      title: "Discover The Irresistible Flavors Of Lucknow's Premier Sweet Haven.",
+      title:
+        "Discover The Irresistible Flavors Of Lucknow's Premier Sweet Haven.",
       description: "",
     },
     {
       images: post2,
-      title: "From Flavors To Ambiance, Explore Our Premier Restaurant's offerings.",
+      title:
+        "From Flavors To Ambiance, Explore Our Premier Restaurant's offerings.",
       description: "",
     },
     {
@@ -24,11 +26,9 @@ const Contacts = () => {
   return (
     <div className="max-w-screen-xl mx-auto  sm:p-10 md:p-16">
       <div className="text-center text-3xl">
-        <p className="text-amber-500 mb-2 font-bold text-xl ">
-          
-        </p>
-        <p className="lg:text-5xl mx-10 mb-10 font-semibold leading-tight">
-        Dine With Your Eyes: <br /> Our Restaurant's Visual Story
+        <p className="text-amber-500 mb-2 font-bold text-xl "></p>
+        <p className="lg:text-3xl mx-10 mb-10 font-bold leading-tight">
+          Dine With Your Eyes: <br /> Our Restaurant's Visual Story
         </p>
       </div>
 

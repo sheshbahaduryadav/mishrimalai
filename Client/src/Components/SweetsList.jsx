@@ -30,9 +30,11 @@ export const SweetsList = () => {
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="text-4xl">Taste The Wonders Of Our Food Offerings And Our Sweet Creations.</h2>
+        <h2 className="text-3xl w-2/4 text-center font-bold">
+          Taste The Wonders Of Our Food Offerings And Our Sweet Creations.
+        </h2>
       </div>
-      <div className="container flex flex-wrap my-12 mx-auto  md:px-12">
+      <div className="container flex flex-wrap mx-auto  md:px-12">
         {data.map((val, index) => {
           return (
             <div
@@ -41,10 +43,14 @@ export const SweetsList = () => {
             >
               <Link to="/shop">
                 <div className="flex justify-center">
-                  <img className="pt-20 pl-4" src={val.images} alt="" />
+                  <img
+                    className="pt-20 pl-4 h-80 w-full"
+                    src={val.images}
+                    alt=""
+                  />
                 </div>
-                <h2 className="pt-10 text-4xl font-semibold">{val.title}</h2>
-                <h3 className="text-xl pt-10">{val.description}</h3>
+                <h2 className="pt-10 text-2xl ">{val.title}</h2>
+                {/* <h3 className="text-xl pt-10">{val.description}</h3> */}
               </Link>
             </div>
           );

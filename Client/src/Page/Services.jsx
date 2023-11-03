@@ -1,6 +1,6 @@
 import React from "react";
 
- import img8 from "../assets/skjlfd/mishri2.jpeg";
+import img8 from "../assets/skjlfd/mishri2.jpeg";
 import img9 from "../Icon/section4-img.png";
 import img10 from "../assets/skjlfd/mishri7.jpeg";
 import img11 from "../assets/skjlfd/mishri8.jpeg";
@@ -13,49 +13,24 @@ import img16 from "../Icon/product-img8-removebg-preview.png";
 const Services = () => {
   const data = [
     {
-       images: img8,
+      images: img8,
       title: "Sweet Shop",
       description: " ",
     },
     {
-       images: img10,
+      images: img10,
       title: "Restaurant",
       description: "",
     },
     {
-       images: img11,
+      images: img11,
       title: "Party Lawn",
       description: "",
     },
-    // {
-    //   images: img12,
-    //   title: "Yeast Custard",
-    //   description: "",
-    // },
-    // {
-    //   images: img13,
-    //   title: "Butter Cookie",
-    //   description: "",
-    // },
-    // {
-    //   images: img14,
-    //   title: "Bun Messes",
-    //   description: "",
-    // },
-    // {
-    //   images: img15,
-    //   title: "Slice Bread",
-    //   description: "",
-    // },
-    // {
-    //   images: img16,
-    //   title: "Bun Roll",
-    //   description: "",
-    // },
   ];
   return (
     <>
-      <div className="w-full text-center text-3xl font-semibold pb-10 lg:text-5xl leading-loose">
+      <div className="w-full text-center text-3xl pb-10 lg:text-3xl font-bold leading-loose">
         <p>
           Indulge, Dine And Epic Celebrations
           <br />
@@ -66,12 +41,16 @@ const Services = () => {
         {data.map((val, index) => {
           return (
             <div
-              className="my-1 w-full md:w-1/2 lg:my-4  lg:w-1/3 pb-24 text-center hover:bg-[#fcf9ed]"
+              className="my-1 w-full md:w-1/2 lg:my-4 lg:w-1/3 pb-28 text-center hover:bg-[#fcf9ed]"
               key={index}
             >
-              <img className="p-24 lg:p-20" src={val.images} alt="" />
-              <h2 className="pt-10 text-3xl font-semibold">{val.title}</h2>
-              <h3 className="text-xl pt-10">{val.description}</h3>
+              <img
+                className="lg:p-20 w-full hover:scale-110 duration-500 transition-all"
+                src={val.images}
+                alt=""
+              />
+              <h2 className="text-2xl">{val.title}</h2>
+              {/* <h3 className="text-xl pt-10">{val.description}</h3> */}
             </div>
           );
         })}
