@@ -30,7 +30,7 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="lg:w-1/2 mx-auto text-center text-xl pb-10 px-5 lg:text-3xl font-bold leading-loose">
+      <div className="lg:w-1/2 mx-auto text-center text-xl pb-10 px-5 lg:text-3xl font-bold">
         <p className="">
           Indulge, Dine And Epic Celebrations "All Under One Roof"
         </p>
