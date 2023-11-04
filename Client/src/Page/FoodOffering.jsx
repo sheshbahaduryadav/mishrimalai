@@ -24,10 +24,10 @@ const Contacts = () => {
     },
   ];
   return (
-    <div className="max-w-screen-xl mx-auto  sm:p-10 md:p-16">
+    <div className="max-w-screen-xl mx-auto pt-10 md:p-16">
       <div className="text-center text-3xl">
         <p className="text-amber-500 mb-2 font-bold text-xl "></p>
-        <p className="lg:text-3xl mx-10 mb-10 font-bold leading-tight">
+        <p className="lg:text-3xl text-xl px-2 font-bold leading-tight">
           Dine With Your Eyes: <br /> Our Restaurant's Visual Story
         </p>
       </div>
@@ -39,8 +39,8 @@ const Contacts = () => {
               <div className="relative">
                 <div className="w-full p-5">
                   <img src={val.images} alt="" />
-                  <div className="px-6 py-4">
-                    <h2 className="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
+                  <div className=" py-4">
+                    <h2 className=" text-xl inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
                       {val.title}
                     </h2>
                     <h3 className="text-gray-500 text-sm">{val.description}</h3>

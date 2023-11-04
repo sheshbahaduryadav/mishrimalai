@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  font-family: "Playfair Display", serif;
+  font-family: "Gentium Book Plus", serif;
 }
 
 .h {
@@ -15,62 +14,11 @@
   object-fit: cover;
 }
 
-/* 
-.logo {
-  padding-left: 200px;
-  padding-top: 20px;
-}
-.logo img {
-  height: 100px;
-  width: 150px;
-}  */
-/* .nav {
-  display: flex;
-  gap: 30px;
-  font-family: sans-serif;
-  font-size: medium;
-  font-style: normal;
-  font-weight: 800;
-  color: white;
-  z-index: 999;
-}
-.h svg {
-  padding-right: 200px;
-  cursor: pointer;
-}
-.text {
-  justify-content: center;
-  align-items: center;
-  padding-left: 200px;
-  width: 50%;
-}
-.text1 {
-  padding-top: 150px;
-  font-size: 2cm;
-}
-.p {
-  margin-top: 30px;
-  font-size: large;
-}*/
-/* #btn {
-  height: 40px;
-  width: 80px;
-  color: rgb(255, 255, 255);
-  background: rgb(248, 149, 11);
-  border: #f0c436;
-  
-  border-radius: 100px;
-  
-  margin-bottom: 100px;
-}  */
-
-
 .slide {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .slides:hover {
   background-color: #fcf9ed;
@@ -80,35 +28,35 @@
   height: 12cm;
   text-align: center;
   border-top-style: none;
-    border-top-width: 0px;
-    border-right-color: #eeeeee;
-    border-right-width: 1px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-left-style: none;
-    border-left-width: 0px;
-    padding-top: 80px;
-    padding-right: 20px;
-    padding-bottom: 90px;
-    padding-left: 20px;
+  border-top-width: 0px;
+  border-right-color: #eeeeee;
+  border-right-width: 1px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-style: none;
+  border-left-width: 0px;
+  padding-top: 80px;
+  padding-right: 20px;
+  padding-bottom: 90px;
+  padding-left: 20px;
 }
 .card-image {
- margin: 10px;
+  margin: 10px;
 }
 .slide .img img {
   width: 100%;
   object-fit: cover;
   text-align: center;
 }
-.slides h2{
+.slides h2 {
   font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
+  font-style: normal;
+  font-weight: 600;
 }
-.slides h3{
+.slides h3 {
   padding-top: 20px;
- font-size: 20px;
- font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 .imagetext {
   width: 100%;
@@ -124,7 +72,7 @@
 .tet {
   width: 50%;
 }
-.tet1{
+.tet1 {
   font-family: "Playfair Display";
   font-size: 45px;
   font-weight: 600;
@@ -140,7 +88,7 @@
 
 .Text-mid {
   font-size: 50px;
-  font-weight: 600 ;
+  font-weight: 600;
   padding-left: 550px;
 }
 
@@ -164,7 +112,7 @@
 .product:hover {
   background-color: #fcf9ed;
 }
-.product h2{
+.product h2 {
   font-size: 20px;
   font-weight: 600;
 }

@@ -48,6 +48,7 @@ const Navbar = () => {
           <ul className="md:flex hidden items-center gap-3 tracking-widest">
             <li>
               <Link
+                onClick={closeMenu}
                 to="/"
                 // className="py-7 px-3 inline-block text-black"
                 className="relative text-black flex-between bg-transparent p-3 before:rounded transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500  before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
@@ -59,6 +60,7 @@ const Navbar = () => {
             <NavLinks />
             <li>
               <Link
+                onClick={closeMenu}
                 to="/shop"
                 // className="py-7 px-3 inline-block text-black"
                 className="relative text-black flex-between bg-transparent p-3 before:rounded transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
@@ -68,6 +70,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={closeMenu}
                 to="/contacts"
                 // className="py-7 px-3 inline-block text-black"
                 className="relative text-black flex-between bg-transparent p-3 before:rounded transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
@@ -93,6 +96,16 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
+            <li className="py-6">
+              <Link
+                onClick={closeMenu}
+                to="/shop"
+                // className="py-7 px-3 inline-block text-black"
+                className="relative text-black flex-between bg-transparent p-3 before:rounded transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-500 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
+              >
+                Shop
+              </Link>
+            </li>
             <li>
               <Link
                 onClick={closeMenu}
@@ -102,7 +115,6 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-
             <NavLinks onClick={closeMenu} />
             <div className="py-5"></div>
           </ul>

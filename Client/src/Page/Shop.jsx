@@ -157,8 +157,8 @@ const Shop = () => {
     },
   ];
   return (
-    <div className="container flex flex-wrap my-12 mx-auto px-20">
-      <div className="grid grid-cols-4 py-10 gap-8 overflow-hidden w-full  cursor-pointer text-center">
+    <div className="container flex flex-wrap my-12 mx-auto lg:px-20 md:px-5 sm:px-5 px-5">
+      <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 grid-cols-1 py-10 lg:gap-8 overflow-hidden w-full  cursor-pointer text-center">
         {data.map((val, index) => {
           return (
             <div

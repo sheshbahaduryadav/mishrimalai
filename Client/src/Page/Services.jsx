@@ -30,26 +30,26 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="w-full text-center text-3xl pb-10 lg:text-3xl font-bold leading-loose">
-        <p>
-          Indulge, Dine And Epic Celebrations
-          <br />
-          "All Under One Roof"
+      <div className="lg:w-1/2 mx-auto text-center text-xl pb-10 px-5 lg:text-3xl font-bold leading-loose">
+        <p className="">
+          Indulge, Dine And Epic Celebrations "All Under One Roof"
         </p>
       </div>
       <div className="container flex flex-wrap mx-auto ">
         {data.map((val, index) => {
           return (
             <div
-              className="my-1 w-full md:w-1/2 lg:my-4 lg:w-1/3 pb-28 text-center hover:bg-[#fcf9ed]"
+              className="my-1 w-full md:w-1/2 lg:my-4 lg:w-1/3 lg:pb-28 md:pb-28 s m:pb-10 pb-10 text-center hover:bg-[#fbf7e5]"
               key={index}
             >
               <img
-                className="lg:p-20 w-full hover:scale-110 duration-500 transition-all"
+                className="lg:p-20 p-5 w-full lg:hover:scale-110 duration-500 transition-all"
                 src={val.images}
                 alt=""
               />
-              <h2 className="text-2xl">{val.title}</h2>
+              <h2 className="lg:text-2xl md:text-2xl sm:text-xl">
+                {val.title}
+              </h2>
               {/* <h3 className="text-xl pt-10">{val.description}</h3> */}
             </div>
           );
