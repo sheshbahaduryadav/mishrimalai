@@ -47,7 +47,7 @@ const Services = () => {
                 src={val.images}
                 alt=""
               />
-              <h2 className="lg:text-2xl md:text-2xl sm:text-xl">
+              <h2 className="lg:text-2xl md:text-2xl sm:text-xl text-xl">
                 {val.title}
               </h2>
               {/* <h3 className="text-xl pt-10">{val.description}</h3> */}
